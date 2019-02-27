@@ -5,8 +5,7 @@
 			else if ($bytes<1024*1024)
 				return round($bytes/1024, 2)." kb";
 			else
-				return round($bytes/1024/1024, 2)." mb";
-		}
+				return round($bytes/1024/1024, 2)." mb";}
 	?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
